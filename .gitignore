@@ -1,0 +1,28 @@
+.DS_Store
+.vagrant
+
+ubuntu-bionic-18.04-cloudimg-console.log
+
+cookbooks/*/*~
+cookbooks/*/*#
+cookbooks/*/.#*
+cookbooks/*/\#*#
+cookbooks/*/.*.sw[a-z]
+cookbooks/*/*.un~
+
+cookbooks/*/.delivery
+cookbooks/*/.gitignore
+
+# Bundler
+cookbooks/*/Gemfile.lock
+cookbooks/*/bin/*
+cookbooks/*/.bundle/*
+
+# test kitchen
+cookbooks/*/.kitchen/
+cookbooks/*/.kitchen.local.yml
+
+# Chef
+cookbooks/*/Berksfile.lock
+cookbooks/*/.zero-knife.rb
+cookbooks/*/Policyfile.lock.json
