@@ -25,10 +25,10 @@ On your local machine you'll need:
 
 ## Install
 
-You may need to edit the Vagrantfile to accept the Chef license agreement.
-If on `vagrant up --provision` you receive an error about the chef license agreement,
-you can uncomment line 17 in Vagrantfile to accept the license.
 
+You may need to edit the Vagrantfile if you've never accepted the [Chef license agreement](https://docs.chef.io/chef_license.html) on your host machine.
+If on `vagrant up --provision` you receive an error about the chef license agreement,
+you can uncomment line 20 in Vagrantfile to accept the license.
 
 ### Commands
 
@@ -47,6 +47,9 @@ vagrant plugin install vagrant-vbguest
 # you may also need to update vbguest
 vagrant plugin update vagrant-vbguest
 
+# uncomment line 20 in Vagrantfile if you need to accept the Chef license agreement
+
+# bring up the server
 vagrant up --provision
 ```
 

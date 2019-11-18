@@ -15,7 +15,8 @@ Vagrant.configure("2") do |config|
     chef.roles_path = "roles"
     chef.add_role("shiny")
 
-    # TODO: uncomment following line if you need to accept the chef license agreement
+    # TODO: uncomment the `chef.arguments` line if you need to accept
+    # the chef license agreement on provision: https://docs.chef.io/chef_license.html
     # chef.arguments = "--chef-license accept"
   end
 
